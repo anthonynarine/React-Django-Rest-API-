@@ -1,0 +1,20 @@
+/* entire app will have this styling */
+.App {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+
+.App-header {
+  text-align: center;
+  font-size: calc(8px + 2vmin);
+}
+/* 
+This will style the two columns (pt list + pt details see app.js ) */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px
+}
